@@ -8,7 +8,7 @@ function App() {
   return (
     < >
       <header>
-      <div className="logo_wrapper">dev <span>amit</span></div>
+      <div className="logo_wrapper">R<span>EV</span>ORN</div>
       <div className="menu_container">
       <span>
         <IconContext.Provider value={{color:"#000", size:"18px", className:"icons_container"}}>
