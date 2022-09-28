@@ -9,7 +9,7 @@ function App() {
     < >
       <header>
       <div className="logo_wrapper">dev <span>amit</span></div>
-      <div className="menu_container"></div>
+      <div className="menu_container">
       <span>
         <IconContext.Provider value={{color:"#000", size:"18px", className:"icons_container"}}>
           <div className="icon"><FaBehance/></div>
@@ -26,13 +26,14 @@ function App() {
         <span></span>
         <span></span>
         <span></span>
-    </span>
+          </span>
+          </div>
     </header>
 
     <div className="content_wrapper">
         <div className="left_content_wrapper">
           <h2>
-            <span>Design <span className="second"> focused</span></span>
+            <span>Design <span className="second"> focused</span></span><br />
             <span>start <span className="second">up</span></span>
           </h2>
           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore voluptate, molestiae quod, provident nemo reprehenderit explicabo est dicta iste nesciunt natus numquam velit beatae exercitationem dolor esse itaque suscipit assumenda?</p>

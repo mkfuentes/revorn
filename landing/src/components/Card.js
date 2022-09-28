@@ -16,6 +16,98 @@ function Card () {
               <IoMailOutline/>
             </IconContext.Provider>
           </span>
+          <h3>ui design <br />for mobile&web</h3>
+          <a href="#">
+            <span>learn more</span>
+            <IconContext.Provider value={{ color: "#14da8f", size: "18px" }}>
+              <IoChevronForward/>
+            </IconContext.Provider>
+          </a>
+        </div>
+        <div className="card">
+          <span className="service_icon" style={{backgroundColor:"ddfbf9"}}>
+            <IconContext.Provider value={{ color: "#14da8f", size: "22px" }}>
+              <IoMailOutline/>
+            </IconContext.Provider>
+          </span>
+          <a href="#">
+            <span>learn more</span>
+            <IconContext.Provider value={{ color: "#14da8f", size: "18px" }}>
+              <IoChevronForward/>
+            </IconContext.Provider>
+          </a>
+        </div>
+        <div className="card">
+          <span className="service_icon" style={{backgroundColor:"ddfbf9"}}>
+            <IconContext.Provider value={{ color: "#14da8f", size: "22px" }}>
+              <IoMailOutline/>
+            </IconContext.Provider>
+          </span>
+          <a href="#">
+            <span>learn more</span>
+            <IconContext.Provider value={{ color: "#14da8f", size: "18px" }}>
+              <IoChevronForward/>
+            </IconContext.Provider>
+          </a>
+        </div>
+        <div className="card">
+          <span className="service_icon" style={{backgroundColor:"ddfbf9"}}>
+            <IconContext.Provider value={{ color: "#14da8f", size: "22px" }}>
+              <IoMailOutline/>
+            </IconContext.Provider>
+          </span>
+          <a href="#">
+            <span>learn more</span>
+            <IconContext.Provider value={{ color: "#14da8f", size: "18px" }}>
+              <IoChevronForward/>
+            </IconContext.Provider>
+          </a>
+        </div>
+        <div className="card">
+          <span className="service_icon" style={{backgroundColor:"ddfbf9"}}>
+            <IconContext.Provider value={{ color: "#14da8f", size: "22px" }}>
+              <IoMailOutline/>
+            </IconContext.Provider>
+          </span>
+          <a href="#">
+            <span>learn more</span>
+            <IconContext.Provider value={{ color: "#14da8f", size: "18px" }}>
+              <IoChevronForward/>
+            </IconContext.Provider>
+          </a>
+        </div>
+        <div className="card">
+          <span className="service_icon" style={{backgroundColor:"ddfbf9"}}>
+            <IconContext.Provider value={{ color: "#14da8f", size: "22px" }}>
+              <IoMailOutline/>
+            </IconContext.Provider>
+          </span>
+          <a href="#">
+            <span>learn more</span>
+            <IconContext.Provider value={{ color: "#14da8f", size: "18px" }}>
+              <IoChevronForward/>
+            </IconContext.Provider>
+          </a>
+        </div>
+        <div className="card">
+          <span className="service_icon" style={{backgroundColor:"ddfbf9"}}>
+            <IconContext.Provider value={{ color: "#14da8f", size: "22px" }}>
+              <IoMailOutline/>
+            </IconContext.Provider>
+          </span>
+          <a href="#">
+            <span>learn more</span>
+            <IconContext.Provider value={{ color: "#14da8f", size: "18px" }}>
+              <IoChevronForward/>
+            </IconContext.Provider>
+          </a>
+        </div>
+        <div className="card">
+          <span className="service_icon" style={{backgroundColor:"ddfbf9"}}>
+            <IconContext.Provider value={{ color: "#14da8f", size: "22px" }}>
+              <IoMailOutline/>
+            </IconContext.Provider>
+          </span>
           <a href="#">
             <span>learn more</span>
             <IconContext.Provider value={{ color: "#14da8f", size: "18px" }}>
