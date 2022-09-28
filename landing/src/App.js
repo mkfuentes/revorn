@@ -3,6 +3,7 @@ import {FaBehance, FaDribbble} from 'react-icons/fa'
 import { IoMailOutline, IoChevronForwardCircle, IoStar } from 'react-icons/io5'
 import { IconContext } from 'react-icons'
 import Card from '../src/components/Card'
+import mainPhoto from '../src/images/tech.jpg'
 
 function App() {
   return (
@@ -59,7 +60,7 @@ function App() {
 
         </div>
         <div className="right_content_wrapper">
-          <img src={process.env.PUBLIC_URL + '../images/bg.png' } alt="bg" />
+          <img src={mainPhoto} alt="tech" />
         </div>
       </div>
 
