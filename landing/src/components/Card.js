@@ -1,23 +1,18 @@
 import React from 'react'
 import {IoMailOutline, IoChevronForward, IoApps, IoNotifications, IoPieChart,IoNewspaper,IoCard,IoColorFill, IoChevronForwardCircle} from 'react-icons/io5'
 import { IconContext } from 'react-icons'
-import {BsRecycle, BsScrewdriver} from 'react-icons/bs'
-import img from '../images/tech.jpg'
+import {BsRecycle, BsScrewdriver, BsPlug} from 'react-icons/bs'
+
 
 function Card () {
   return (
     <div className="service_container">
       <div className="title_wrapper">
-        <span className="service_title">Our services</span>
-        <h2>save time managing social media <br />For your business</h2>
+        <h2>Transportation vehicles produce 25 to 75 percent <br /> of key chemicals that pollute the air, causing smog and health problems.</h2>
+        <br /><br />
+        <span className="service_title">Next steps</span>
       </div>
       <div className="service_card">
-        <div className="card">
-          <img src={img} alt="" />
-          <h3>ui design <br />for mobile&web</h3>
-          <a href="#">
-          </a>
-        </div>
         <div className="card">
           <span className="service_icon" style={{backgroundColor:"ffede6"}}>
             <IconContext.Provider value={{ color: "#ff8559", size: "22px" }}>
@@ -38,16 +33,11 @@ function Card () {
         <div className="card">
           <span className="service_icon" style={{backgroundColor:"dcedff"}}>
             <IconContext.Provider value={{ color: "#56a8f4", size: "22px" }}>
-              <IoPieChart/>
+              <BsPlug/>
             </IconContext.Provider>
-          </span>
-          <h3>ui design <br />for mobile&web</h3>
-          <a href="#">
-            <span>learn more</span>
-            <IconContext.Provider value={{ color: "#14da8f", size: "18px" }}>
-              <IoChevronForward/>
-            </IconContext.Provider>
-          </a>
+          </span><br />
+          <h3>Electric conversion</h3>
+          Fully electric cars have zero tailpipe emissions making them greener, cleaner and better for the environment than petrol or diesel
         </div>
         <div className="card">
           <span className="service_icon" style={{backgroundColor:"dbf9ed"}}>

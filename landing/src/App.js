@@ -41,22 +41,10 @@ function App() {
           <p>Fully electric cars have zero tailpipe emissions making them greener, cleaner and better for the environment than petrol or diesel</p>
           <div className="btn_group">
             <div className="btn btn_primary">
-              <form action="https://www.paypal.com/donate" method="post" target="_top">
-                <input type="hidden" name="submit" value="XLWPTLULTDXQN" />
-                <input type="image" src="" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
-                PayPal
-                </form>
+              <a href="https://www.paypal.com/donate/?hosted_button_id=XLWPTLULTDXQN">PayPal</a> 
             </div>
-            <div className="btn btn_secondary">Live Chat</div>
+            <div className="btn btn_secondary">Contact</div>
           </div>
-          <div className="review_container">
-            <p className="total_review">64 reviews</p>
-            <IconContext.Provider value={{ color: "#fff", size: "18px" }}>
-              <span><BsFillArrowDownCircleFill/> </span>
-            </IconContext.Provider>
-            <p className="review_containe">More information</p>
-          </div>
-
         </div>
         <div className="right_content_wrapper">
           <img src={mainPhoto} alt="tech" />
