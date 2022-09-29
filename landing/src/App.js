@@ -2,8 +2,9 @@ import './App.scss'
 import {FaBehance, FaDribbble} from 'react-icons/fa'
 import { IoMailOutline, IoChevronForwardCircle, IoStar } from 'react-icons/io5'
 import { IconContext } from 'react-icons'
+import {BsFillArrowDownCircleFill} from 'react-icons/bs'
 import Card from '../src/components/Card'
-import mainPhoto from '../src/images/tech.jpg'
+import mainPhoto from '../src/images/truck.png'
 
 function App() {
   return (
@@ -34,28 +35,26 @@ function App() {
     <div className="content_wrapper">
         <div className="left_content_wrapper">
           <h2>
-            <span>Design <span className="second"> focused</span></span><br />
-            <span>start <span className="second">up</span></span>
+            <span>Help me to save <span className="second"> the world </span></span>
+            <span>transforming  <span className="second">gasoline vehicles</span></span>
           </h2>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore voluptate, molestiae quod, provident nemo reprehenderit explicabo est dicta iste nesciunt natus numquam velit beatae exercitationem dolor esse itaque suscipit assumenda?</p>
+          <p>Fully electric cars have zero tailpipe emissions making them greener, cleaner and better for the environment than petrol or diesel</p>
           <div className="btn_group">
-            <div className="btn btn_primary">Hire me
-              <IconContext.Provider value={{ color: "#14da8f", size: "25px" }}>
-                <IoChevronForwardCircle/>
-              </IconContext.Provider>
+            <div className="btn btn_primary">
+              <form action="https://www.paypal.com/donate" method="post" target="_top">
+                <input type="hidden" name="submit" value="XLWPTLULTDXQN" />
+                <input type="image" src="" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+                PayPal
+                </form>
             </div>
             <div className="btn btn_secondary">Live Chat</div>
           </div>
           <div className="review_container">
             <p className="total_review">64 reviews</p>
             <IconContext.Provider value={{ color: "#fff", size: "18px" }}>
-              <span><IoStar/></span>
-              <span><IoStar/></span>
-              <span><IoStar/></span>
-              <span><IoStar/></span>
-              <span><IoStar/></span>
+              <span><BsFillArrowDownCircleFill/> </span>
             </IconContext.Provider>
-            <p className="review_containe">More than 50 people</p>
+            <p className="review_containe">More information</p>
           </div>
 
         </div>

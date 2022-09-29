@@ -1,6 +1,8 @@
 import React from 'react'
 import {IoMailOutline, IoChevronForward, IoApps, IoNotifications, IoPieChart,IoNewspaper,IoCard,IoColorFill, IoChevronForwardCircle} from 'react-icons/io5'
-import {IconContext} from 'react-icons'
+import { IconContext } from 'react-icons'
+import {BsRecycle, BsScrewdriver} from 'react-icons/bs'
+import img from '../images/tech.jpg'
 
 function Card () {
   return (
@@ -11,46 +13,27 @@ function Card () {
       </div>
       <div className="service_card">
         <div className="card">
-          <span className="service_icon" style={{backgroundColor:"e7daf8"}}>
-            <IconContext.Provider value={{ color: "#5700cf", size: "22px" }}>
-              <IoApps/>
-            </IconContext.Provider>
-          </span>
+          <img src={img} alt="" />
           <h3>ui design <br />for mobile&web</h3>
           <a href="#">
-            <span>learn more</span>
-            <IconContext.Provider value={{ color: "#14da8f", size: "18px" }}>
-              <IoChevronForward/>
-            </IconContext.Provider>
           </a>
         </div>
         <div className="card">
           <span className="service_icon" style={{backgroundColor:"ffede6"}}>
             <IconContext.Provider value={{ color: "#ff8559", size: "22px" }}>
-              <IoColorFill/>
+              <BsRecycle/>
             </IconContext.Provider>
-          </span>
-          <h3>web design <br />app&web</h3>
-          <a href="#">
-            <span>learn more</span>
-            <IconContext.Provider value={{ color: "#14da8f", size: "18px" }}>
-              <IoChevronForward/>
-            </IconContext.Provider>
-          </a>
-        </div>
+          </span><br />
+          <h3>Auto restoration</h3><br />
+          <span>Improve car value, many cars are worth a significant amount of money when restored.Establish the car’s identity.</span>        </div>
         <div className="card">
           <span className="service_icon" style={{backgroundColor:"ffele9"}}>
             <IconContext.Provider value={{ color: "#fa3970", size: "22px" }}>
-              <IoNotifications/>
+              <BsScrewdriver/>
             </IconContext.Provider>
-          </span>
-          <h3>ui design <br />for mobile&web</h3>
-          <a href="#">
-            <span>learn more</span>
-            <IconContext.Provider value={{ color: "#14da8f", size: "18px" }}>
-              <IoChevronForward/>
-            </IconContext.Provider>
-          </a>
+          </span><br />
+          <h3>Update</h3><br />
+          <span>Simply plug in your phone via a USB cable or wireless. The digital interface with which you’re most familiar is now accessible</span>
         </div>
         <div className="card">
           <span className="service_icon" style={{backgroundColor:"dcedff"}}>
@@ -83,7 +66,7 @@ function Card () {
         <div className="card">
           <span className="service_icon" style={{backgroundColor:"fffada"}}>
             <IconContext.Provider value={{ color: "#f1df11", size: "22px" }}>
-              <IoMailOutline/>
+              <IoNewspaper/>
             </IconContext.Provider>
           </span>
           <h3>ui design <br />for mobile&web</h3>
@@ -97,7 +80,7 @@ function Card () {
         <div className="card">
           <span className="service_icon" style={{backgroundColor:"ddfbf9"}}>
             <IconContext.Provider value={{ color: "#14da8f", size: "22px" }}>
-              <IoMailOutline/>
+              <IoCard/>
             </IconContext.Provider>
           </span>
           <h3>ui design <br />for mobile&web</h3>
