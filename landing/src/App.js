@@ -1,5 +1,5 @@
 import './App.scss'
-import {FaBehance, FaDribbble} from 'react-icons/fa'
+import {FaBehance, FaDribbble, FaLinkedin} from 'react-icons/fa'
 import { IoMailOutline, IoChevronForwardCircle, IoStar } from 'react-icons/io5'
 import { IconContext } from 'react-icons'
 import {BsFillArrowDownCircleFill} from 'react-icons/bs'
@@ -14,7 +14,7 @@ function App() {
       <div className="menu_container">
       <span>
         <IconContext.Provider value={{color:"#000", size:"18px", className:"icons_container"}}>
-          <div className="icon"><FaBehance/></div>
+          <div className="icon"><FaLinkedin/></div>
           <div className="icon"><FaDribbble/></div>
         </IconContext.Provider>
       </span>
@@ -41,7 +41,7 @@ function App() {
           <p>Fully electric cars have zero tailpipe emissions making them greener, cleaner and better for the environment than petrol or diesel</p>
           <div className="btn_group">
             <div className="btn btn_primary">
-              <a href="https://www.paypal.com/donate/?hosted_button_id=XLWPTLULTDXQN">PayPal</a> 
+              <a href="https://www.paypal.com/donate/?hosted_button_id=XLWPTLULTDXQN">PayPal</a>
             </div>
             <div className="btn btn_secondary">Contact</div>
           </div>
