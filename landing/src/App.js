@@ -14,7 +14,7 @@ function App() {
       <div className="menu_container">
       <span>
         <IconContext.Provider value={{color:"#000", size:"18px", className:"icons_container"}}>
-          <div className="icon"><FaLinkedin/></div>
+          <div className="icon"><a href=""></a><FaLinkedin/></div>
           <div className="icon"><FaDribbble/></div>
         </IconContext.Provider>
       </span>
